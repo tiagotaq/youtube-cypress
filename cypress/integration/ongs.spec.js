@@ -16,6 +16,7 @@ describe('Ongs', () => {
         // criar uma rota com cy.route()
         // atribuir rota a um alias
         // esperar com cy.wait e fazer uma validação
+        //ALTERAÇÃO!
 
         cy.route('POST', '**/ongs').as('postOng');
 
